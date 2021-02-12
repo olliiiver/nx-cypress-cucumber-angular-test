@@ -5,9 +5,11 @@ Before(() => {
 });
 
 Given('foo', () => {
-
+// Do something
 });
 
-Then('I see Hello', () => {
-  cy.get('h1').should('contain.text', 'Welcome to demo');
+Then('bar', () => {
+// Do something
 });
+
+//
