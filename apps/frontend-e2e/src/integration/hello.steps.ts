@@ -1,7 +1,7 @@
-import { Before, Given, Then, When } from 'cucumber';
+import { Before, Given, Then } from "cypress-cucumber-preprocessor/steps"
 
 Before(() => {
-  cy.visit('/');
+//  cy.visit('/');
 });
 
 Given('foo', () => {
